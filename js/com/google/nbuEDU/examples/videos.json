@@ -1,0 +1,66 @@
+[
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid1-jnh32kj432kjh432kjhg432k",
+    "titleText": "Intro to adding negative numbers",
+    "description": "Learn how to add negative numbers.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/0mOH-qNGM7M.mp4"
+  },
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid2-jnh32kj432kjh432kjhg432k",
+    "titleText": "Intro to subtracting negative numbers",
+    "description": "Learn how to subtract negative numbers.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/3Xcae0OGavk.mp4"
+  },
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid3-jnh32kj432kjh432kjhg432k",
+    "titleText": "Adding and subtracting integers",
+    "description": "Add and subtract negative numbers using a number line.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/4LYtLMmDuzw.mp4"
+  },
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid4-jnh32kj432kjh432kjhg432k",
+    "titleText": "Adding and subtracting with negatives on the number line",
+    "description": "Learn how to use number lines to solve negative number addition and subtraction problems.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/DR2DYe7PI74.mp4"
+  },
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid6-jnh32kj432kjh432kjhg432k",
+    "titleText": "Adding and subtracting negative fractions",
+    "description": "Learn how to add and subtract fractions, even when they're negative.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/fFdOr8U4mnI.mp4"
+  },
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid7-jnh32kj432kjh432kjhg432k",
+    "titleText": "Absolute value",
+    "description": "Find the distance between any two numbers using absolute value.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/JaScdH47PYg.mp4"
+  },
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid8-jnh32kj432kjh432kjhg432k",
+    "titleText": "Properties of addition and subtraction",
+    "description": "Apply the properties of addition and subtraction to negative numbers.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/0mOH-qNGM7M.mp4"
+  },
+  {
+    "model_": "com.google.ow.examples.VideoB",
+    "id": "vid9-jnh32kj432kjh432kjhg432k",
+    "titleText": "Adding and subtracting negative numbers with variables",
+    "description": "Feeling positive about all of this negative number stuff? Challenge yourself to solve some more advanced problems, including expressions with variables.",
+    "sid": "eduVidStream487673295",
+    "content": "/static/videos/4LYtLMmDuzw.mp4"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "model_": "com.google.ymp.Market",
+    "id": "market_A",
+    "name": "Market A",
+  },
+  {
+    "model_": "com.google.ymp.Market",
+    "id": "market_B",
+    "name": "Market B",
+  },
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "model_": "com.google.ymp.Person",
+    "id": "person_1",
+    "name": "James Bond 007",
+    "subscribedMarkets": ["market_A"],
+  },
+  {
+    "model_": "com.google.ymp.Person",
+    "id": "person_2",
+    "name": "LeBron James",
+    "subscribedMarkets": ["market_B"],
+  },
+  {
+    "model_": "com.google.ymp.Person",
+    "id": "person_3",
+    "name": "Brian James Fichtner",
+    "subscribedMarkets": ["market_A", "market_B"],
+  },
+  {
+    "model_": "com.google.ymp.Person",
+    "id": "person_4",
+    "name": "James Salsman",
+    "subscribedMarkets": ["market_A"],
+  },
+  {
+    "model_": "com.google.ymp.Person",
+    "id": "person_5",
+    "name": "James Bricknell",
+  },
+]
