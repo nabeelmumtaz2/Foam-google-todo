@@ -34,7 +34,7 @@
 			}},
 			{
 				name: 'query',
-				postSet: function (_, q) { this.filteredDAO = this.dao.where(q); },
+				postSet: function (_, q) { this.filteredDAO2 = this.dao.where(q); },
 				defaultValue: TRUE,
 				view: 'com.todomvc.TodoFilterView'
 			},
@@ -54,7 +54,12 @@
 				name: 'clearAll',
 				label: 'Clear All',
 				code: function () { this.dao.removeAll(); }
-			}
+			},
+			{
+				name: 'ClearActive',
+				label: 'Clear Active',
+					code: function () { this.dao.where(NOT(this.Todo.COMPLETED)).removeAll(); }
+			},
 		],
 		listeners: [
 			{
@@ -97,8 +102,7 @@
 						<strong>$$activeCount{mode: 'read-only'}</strong> item<%# this.data.activeCount == 1 ? '' : 's' %> left
 					</span>
 					$$query{id: 'filters'}
-					$$clearCompleted{id: 'clear-completed'}<br>
-					$$clearAll{id: 'clear-all'}
+					<ul id="filters" style="margin-top:30px"><li>$$clearCompleted{id: 'clear-completed'}</li><li>$$clearAll{id: 'clear-all'}</li><li>$$ClearActive{id: 'clear-active'}</li></ul>
 				</footer>
 			</section>
 			<footer id="info">
