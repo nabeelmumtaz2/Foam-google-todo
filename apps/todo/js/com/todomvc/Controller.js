@@ -34,7 +34,7 @@
 			}},
 			{
 				name: 'query',
-				postSet: function (_, q) { this.filteredDAO2 = this.dao.where(q); },
+				postSet: function (_, q) { this.filteredDAO = this.dao.where(q); },
 				defaultValue: TRUE,
 				view: 'com.todomvc.TodoFilterView'
 			},
